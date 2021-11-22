@@ -45,12 +45,32 @@
     background: linear-gradient(120deg, #022859, 75%, #0367A6);
 }
 
+.nav-link {
+    color: white;
+}
+
+/* .nav-link:hover {
+    color: #D98E04;
+} */
+
+.nav-link:visited {
+    color: white;
+}
+
+.active {
+    color: white !important;
+    background-color: #D98E04 !important;
+    border-color: #D98E04 !important;
+}
+
 .btn-gold {
+    color: white;
     background-color: #D98E04;
     border-color: #D98E04;
 }
 
 .btn-gold:hover {
-    background-color: #cf8804;
-    border-color: #cf8804;
+    color: white;
+    background-color: #a86f05;
+    border-color: #a86f05;
 }
