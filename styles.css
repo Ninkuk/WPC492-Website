@@ -1,0 +1,56 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+/* Color Theme */
+.dark-blue {
+    color: #022859;
+}
+
+.blue {
+    color: #0367A6;
+}
+
+.vivid-blue {
+    color: #04B2D9;
+}
+
+.brown {
+    color: #854F21;
+}
+
+.gold {
+    color: #D98E04;
+}
+
+.tan {
+    color: #F2B885;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+#hero {
+    color: white;
+    background: linear-gradient(120deg, #022859, 75%, #0367A6);
+}
+
+#video-section {
+    color: white;
+    background: linear-gradient(120deg, #854F21, #D98E04);
+}
+
+#footer {
+    color: white;
+    background: linear-gradient(120deg, #022859, 75%, #0367A6);
+}
+
+.btn-gold {
+    background-color: #D98E04;
+    border-color: #D98E04;
+}
+
+.btn-gold:hover {
+    background-color: #cf8804;
+    border-color: #cf8804;
+}
